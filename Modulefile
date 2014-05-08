@@ -10,4 +10,6 @@ project_page 'https://github.com/fvoges/fvoges-motd'
 ## Add dependencies, if any:
 # dependency 'username/name', '>= 1.2.0'
 dependency 'puppetlabs/concat', '1.x'
+dependency 'puppetlabs/stdlib', '3.x'
+
 
