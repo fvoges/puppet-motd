@@ -39,7 +39,7 @@ class motd (
   validate_bool($motd_local_enabled)
   validate_bool($add_puppet_warning)
 
-  concat{$mod_file:
+  concat{$motd_file:
     owner => 'root',
     group => '0',
     mode  => '0644',
