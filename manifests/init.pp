@@ -55,8 +55,8 @@ class motd (
 
   if $motd_local_enabled {
     concat::fragment{'motd_local':
-      target => $motd_file,
       ensure => '/etc/motd.local',
+      target => $motd_file,
       order  => '99',
     }
   }
