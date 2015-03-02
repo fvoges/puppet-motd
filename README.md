@@ -37,7 +37,7 @@ This is a simple class that manages `/etc/motd` using `puppetlabs-concat`.
 
   Defined type to manage fragments of `/etc/motd`.
 
-### Parameters
+#### Parameters
 
 #####`content`
 
@@ -49,7 +49,7 @@ This is a simple class that manages `/etc/motd` using `puppetlabs-concat`.
 
 #### Examples
 
-```Puppet
+```puppet
  class { 'motd':
    motd_local_enabled => false,
    add_puppet_warning => true,
