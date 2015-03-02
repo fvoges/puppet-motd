@@ -2,11 +2,11 @@
 
 ##Overview
 
-This is a simple motd module for Puppet. It's heavily based on the example from puppetlabs-concat.
+This is a simple motd module for Puppet. It's heavily based on the example from `puppetlabs-concat`.
 
 ##Module Description
 
-This module allows you to build /etc/mod 'in chunks'. So you can add content from different modules.
+This module allows you to build `/etc/mod` in 'chunks'. So you can add content from different modules.
 
 ##License
 
@@ -16,7 +16,7 @@ Apache License, Version 2.0
 
 ### Class: `motd`
 
-This is a simple class that manages /etc/motd using puppetlabs-concat
+This is a simple class that manages `/etc/motd` using `puppetlabs-concat`.
 
 #### Parameters
 
@@ -41,7 +41,7 @@ This is a simple class that manages /etc/motd using puppetlabs-concat
 
 #####`content`
 
-  Content of the fragment. Default value: $title.
+  Content of the fragment. Default value: `$title`.
 
 #####`order`
 
