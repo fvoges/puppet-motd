@@ -1,5 +1,7 @@
 #motd
 
+[![Build Status](https://travis-ci.org/fvoges/fvoges-motd.svg)](https://travis-ci.org/fvoges/fvoges-motd)
+
 ##Overview
 
 This is a simple motd module for Puppet. It's heavily based on the example from `puppetlabs-concat`.
