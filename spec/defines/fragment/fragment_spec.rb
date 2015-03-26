@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'shared_contexts'
+#require 'shared_contexts'
 
 describe 'motd::fragment' do
   # by default the hiera integration uses hirea data from the shared_contexts.rb file
