@@ -184,6 +184,7 @@ DEPENDENCIES
   metadata-json-lint
   puppet (~> 3.7.0)
   puppet-blacksmith
+  puppet-lint
   puppet-syntax
   puppetlabs_spec_helper
   rake
