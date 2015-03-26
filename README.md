@@ -8,7 +8,7 @@ This is a simple motd module for Puppet. It's heavily based on the example from 
 
 ##Module Description
 
-This module allows you to build `/etc/mod` in 'chunks'. So you can add content from different modules.
+This module allows you to build `/etc/motd` in 'chunks'. So you can add content from different modules.
 
 ##License
 
