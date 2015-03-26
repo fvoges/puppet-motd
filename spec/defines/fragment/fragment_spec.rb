@@ -15,7 +15,14 @@ describe 'motd::fragment' do
   # facts on a per describe/context block.  If you use a fact in your
   # manifest you should mock the facts below.
   let(:facts) do
-    { :concat_basedir => '/dfe' }
+    {
+      :osfamily       => 'RedHat',
+      :concat_basedir => '/dfe',
+      :id             => 'dummy',
+      :kernel         => 'Linux',
+      :is_pe          => 'no',
+      :path           => '/bin',
+    }
   end
   # below is a list of the resource parameters that you can override.
   # By default all non-required parameters are commented out,

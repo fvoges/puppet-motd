@@ -15,8 +15,13 @@ describe 'motd' do
   # manifest you should mock the facts below.
   let(:facts) do
     {
+      :osfamily       => 'RedHat',
+      :id             => 'dummy',
       :concat_basedir => '/dne',
-      :fqdn           => 'test.example.com'
+      :fqdn           => 'test.example.com',
+      :is_pe          => 'no',
+      :kernel         => 'Linux',
+      :path           => '/bin',
     }
   end
   # below is a list of the resource parameters that you can override.
