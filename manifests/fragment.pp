@@ -15,6 +15,7 @@ define motd::fragment(
   $content = $title,
   $order = 10,
 ) {
+  include motd
   concat::fragment{"motd_fragment_${name}":
       target  => $motd::motd_file,
       content => $content,
