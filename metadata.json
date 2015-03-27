@@ -1,13 +1,16 @@
 {
   "name": "fvoges-motd",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "author": "fvoges",
   "license": "Apache-2.0",
   "summary": "Simple MOTD Puppet module",
   "source": "https://github.com/fvoges/fvoges-motd",
   "project_page": "https://forge.puppetlabs.com/fvoges/motd",
   "issues_url": "https://github.com/fvoges/fvoges-motd/issues",
-  "tags": ["motd", "unix"],
+  "tags": [
+    "motd",
+    "unix"
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
@@ -68,7 +71,13 @@
   ],
   "description": "Module for Apache configuration",
   "dependencies": [
-    {"name":"puppetlabs/stdlib","version_requirement":">= 2.4.0"},
-    {"name":"puppetlabs/concat","version_requirement":">= 1.1.1"}
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 2.4.0"
+    },
+    {
+      "name": "puppetlabs/concat",
+      "version_requirement": ">= 1.1.1"
+    }
   ]
 }
