@@ -43,7 +43,11 @@ This is a simple class that manages `/etc/motd` using `puppetlabs-concat`.
 
 #####`content`
 
-  Content of the fragment. Default value: `$title`.
+  Content of the fragment. Default value: `undef`.
+
+#####`source`
+
+  Content of the fragment. Default value: `undef`.
 
 #####`order`
 
