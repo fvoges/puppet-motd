@@ -1,11 +1,11 @@
 {
   "name": "fvoges-motd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "fvoges",
   "license": "Apache-2.0",
   "summary": "Simple MOTD Puppet module",
-  "source": "https://github.com/fvoges/fvoges-motd",
-  "project_page": "https://forge.puppetlabs.com/fvoges/motd",
+  "source": "https://github.com/fvoges/fvoges-motd.git",
+  "project_page": "https://github.com/fvoges/fvoges-motd",
   "issues_url": "https://github.com/fvoges/fvoges-motd/issues",
   "tags": [
     "motd",
@@ -62,7 +62,7 @@
   "requirements": [
     {
       "name": "pe",
-      "version_requirement": ">= 3.7.0 < 2015.4.0"
+      "version_requirement": ">= 3.7.0 < 2016.2.0"
     },
     {
       "name": "puppet",
