@@ -5,6 +5,18 @@ GIT
     rspec-puppet-utils (2.2.1)
 
 GIT
+  remote: https://github.com/fvoges/puppetlabs_spec_helper.git
+  revision: c7acc51e364f1c93b8580baa95476ef3b6185aa8
+  branch: check_symlinks_ignore_dotgit
+  specs:
+    puppetlabs_spec_helper (1.1.1)
+      mocha
+      puppet-lint
+      puppet-syntax
+      rake
+      rspec-puppet
+
+GIT
   remote: https://github.com/rodjek/rspec-puppet.git
   revision: 9eb2c6ffc7f2dd56e2a72ac4966482848ad148ba
   specs:
@@ -98,12 +110,6 @@ GEM
     puppet-lint (1.1.0)
     puppet-syntax (2.1.0)
       rake
-    puppetlabs_spec_helper (1.1.1)
-      mocha
-      puppet-lint
-      puppet-syntax
-      rake
-      rspec-puppet
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -175,7 +181,7 @@ DEPENDENCIES
   puppet-blacksmith
   puppet-lint
   puppet-syntax
-  puppetlabs_spec_helper
+  puppetlabs_spec_helper!
   rake
   rspec-puppet!
   rspec-puppet-utils!
