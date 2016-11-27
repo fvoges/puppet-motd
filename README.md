@@ -80,3 +80,4 @@ Please report issues on the [project page](http://github.com/fvoges/fvoges-motd/
 
 Pull requests are welcome :)
 
+
