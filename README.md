@@ -1,6 +1,6 @@
 #motd
 
-[![Build Status](https://travis-ci.org/fvoges/fvoges-motd.svg)](https://travis-ci.org/fvoges/fvoges-motd)
+[![Build Status](https://travis-ci.org/fvoges/puppet-motd.svg)](https://travis-ci.org/fvoges/puppet-motd)
 
 ##Overview
 
