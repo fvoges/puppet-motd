@@ -1,4 +1,27 @@
 
+v1.0.1 / 2016-04-07
+==================
+
+  * Update metadata
+  * Add coverage report to rspec tests
+
+v1.0.0 / 2016-03-06
+===================
+
+  * Fix travis matrix configuration
+  * Rename tests -> examples following current recommendations
+  * Add gem caching
+  * Update ruby/puppet versions exclusions
+  * Tighter Puppet/PE compatibility strings
+  * Update gems
+  * Update travis CI config
+  * Update define type documentation
+  * Bump version and improve deps specification
+  * Add source attribute
+  * No need specify FUTURE_PARSER=yes for 4.x (D'oh!)
+  * Adding more puppet versions
+  * Testing new travis ci infra
+
 0.3.0 / 2015-03-26
 ==================
 
