@@ -1,6 +1,6 @@
 #motd
 
-[![Build Status](https://travis-ci.org/fvoges/fvoges-motd.svg)](https://travis-ci.org/fvoges/fvoges-motd)
+[![Build Status](https://travis-ci.org/fvoges/puppet-motd.svg)](https://travis-ci.org/fvoges/puppet-motd)
 
 ##Overview
 
@@ -76,8 +76,7 @@ Federico Voges <fvoges@gmail.com>
 
 ##Support
 
-Please report issues on the [project page](http://github.com/fvoges/fvoges-motd/issues).
+Please report issues on the [project page](http://github.com/fvoges/puppet-motd/issues).
 
 Pull requests are welcome :)
-
 
