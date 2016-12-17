@@ -76,6 +76,7 @@ Federico Voges <fvoges@gmail.com>
 
 ##Support
 
-Please report issues on the [project page](http://github.com/fvoges/fvoges-motd/issues).
+Please report issues on the [project page](http://github.com/fvoges/puppet-motd/issues).
 
 Pull requests are welcome :)
+
