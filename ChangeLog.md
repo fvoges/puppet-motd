@@ -1,3 +1,11 @@
+
+v1.0.3 / 2017-04-03
+==================
+
+  * update spec tests to use rspec-puppet-facts
+  * add rspec-puppet-facts ruby gem
+  * update changelog
+
 v1.0.2 / 2017-04-03
 ===================
 
