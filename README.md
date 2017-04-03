@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/fvoges/puppet-motd.svg)](https://travis-ci.org/fvoges/puppet-motd)
 
+Version 2.0 drops support for Puppet 3.x.
+
 ## Overview
 
 This is a simple motd module for Puppet. It's heavily based on the example from `puppetlabs-concat`.
