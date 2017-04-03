@@ -15,9 +15,9 @@
 #   anything else using this to influence the order of the content in the file
 #
 define motd::fragment(
-  $content = undef,
-  $source  = undef,
-  $order   = 10,
+  Optional[String] $content = undef,
+  Optional[String] $source  = undef,
+  Integer $order   = 10,
 ) {
   if ($content == undef and $source == undef) or ($content != undef and $source != undef) {
     fail('Has to specify one of content or source.')

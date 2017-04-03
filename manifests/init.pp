@@ -30,14 +30,10 @@
 # Copyright 2014 Federico Voges, unless otherwise noted.
 #
 class motd (
-  $motd_file = '/etc/motd',
-  $motd_local_enabled = true,
-  $add_puppet_warning = false,
+  String $motd_file = '/etc/motd',
+  Boolean $motd_local_enabled = true,
+  Boolean $add_puppet_warning = false,
 ) {
-  # Validate all the input! o/
-  validate_string($motd_file)
-  validate_bool($motd_local_enabled)
-  validate_bool($add_puppet_warning)
 
   concat{$motd_file:
     owner => 'root',
