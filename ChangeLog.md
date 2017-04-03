@@ -1,4 +1,51 @@
 
+v1.0.3 / 2017-04-03
+==================
+
+  * update spec tests to use rspec-puppet-facts
+  * add rspec-puppet-facts ruby gem
+  * update changelog
+
+v1.0.2 / 2017-04-03
+===================
+
+  * fix README formatting
+  * update ruby gems
+  * add 4.9.0 to test matrix
+  * bump default puppet to v4.9.x
+
+v1.0.1 / 2016-12-17
+===================
+
+  * Merge pull request #10 from fvoges/remove_rubies
+  * Remove all Ruby versions from test matrix except 2.1
+  * Merge pull request #7 from fvoges/fix_travis_ci_badge
+  * Merge branch 'master' into fix_travis_ci_badge
+  * Update issue tracker URL
+  * Merge pull request #4 from fvoges/updates
+  * Merge pull request #9 from fvoges/update_contributing_rules
+  * Update Travis CI badge URL
+  * Update contributing rules
+  * Merge pull request #8 from fvoges/remove_ruby_193
+  * remove Ruby 1.9.3 fromtest matrix
+  * test
+  * Fix README
+  * Update Travis CI configuration
+  * Update metadata
+  * Change GitMagic rule to require ubjects to start with upper case
+  * Merge branch 'master' into updates
+  * Merge pull request #5 from gitmagic-bot/master
+  * add contributing.json file (https://gitmagic.io/rules)
+  * Update Changelog.md
+  * Update metadata
+  * Add coverage report to rspec tests
+  * Merge pull request #3 from fvoges/features/source_attribute
+
+n.n.n / 2017-04-03
+==================
+
+  * [blacksmith] Bump version to 1.0.3
+
 v1.0.1 / 2016-04-07
 ==================
 

@@ -1,16 +1,16 @@
-#motd
+# Puppet MOTD module
 
 [![Build Status](https://travis-ci.org/fvoges/puppet-motd.svg)](https://travis-ci.org/fvoges/puppet-motd)
 
-##Overview
+## Overview
 
 This is a simple motd module for Puppet. It's heavily based on the example from `puppetlabs-concat`.
 
-##Module Description
+## Module Description
 
 This module allows you to build `/etc/motd` in 'chunks'. So you can add content from different modules.
 
-##License
+## License
 
 Apache License, Version 2.0
 
@@ -22,16 +22,16 @@ This is a simple class that manages `/etc/motd` using `puppetlabs-concat`.
 
 #### Parameters
 
-#####`motd_file`
+##### `motd_file`
 
    MOTD file. Default value: '`/etc/motd`'
 
-#####`motd_local_enabled`
+##### `motd_local_enabled`
 
   If true, Puppet will append the contents of `/etc/motd.local`.
   The content of `/etc/motd.local` is not managed by Puppet.
 
-#####`add_puppet_warning`
+##### `add_puppet_warning`
   Adds a warning to the top of the MOTD (`"${fqdn} is managed by Puppet"`).
 
 
@@ -41,15 +41,15 @@ This is a simple class that manages `/etc/motd` using `puppetlabs-concat`.
 
 #### Parameters
 
-#####`content`
+##### `content`
 
   Content of the fragment. Default value: `undef`.
 
-#####`source`
+##### `source`
 
   Content of the fragment. Default value: `undef`.
 
-#####`order`
+##### `order`
 
   By default all files gets a `10_` prefix in the directory you can set it to anything else using this to influence the order of the content in the file
 
@@ -71,10 +71,10 @@ This is a simple class that manages `/etc/motd` using `puppetlabs-concat`.
 
 ```
 
-##Contact
+## Contact
 Federico Voges <fvoges@gmail.com>
 
-##Support
+## Support
 
 Please report issues on the [project page](http://github.com/fvoges/puppet-motd/issues).
 

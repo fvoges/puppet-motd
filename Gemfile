@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 group :test do
   gem "rake"
-  gem "puppet", ENV['PUPPET_VERSION'] || '~> 3.7.0'
+  gem "puppet", ENV['PUPPET_VERSION'] || '~> 4.9.0'
   gem "puppet-lint"
   gem "rspec-puppet", :git => 'https://github.com/rodjek/rspec-puppet.git'
   gem "puppetlabs_spec_helper"
@@ -10,6 +10,7 @@ group :test do
 #  gem 'hiera-puppet-helper', :git => 'https://github.com/bobtfish/hiera-puppet-helper.git'
   gem "metadata-json-lint"
   gem 'puppet-syntax'
+  gem 'rspec-puppet-facts', :require => false
 end
 
 group :development do
