@@ -14,6 +14,8 @@ group :test do
   gem 'puppet-syntax'
   gem 'rspec-puppet-facts', :require => false
   gem 'semantic_puppet' if PUPPET_VERSION < '4.9.0'
+  gem 'yard'
+  gem 'puppet-strings'
 end
 
 group :development do
