@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
+PUPPET_VERSION = ENV['PUPPET_VERSION'] || '~> 5.0'
+
 group :test do
   gem "rake"
-  gem "puppet", ENV['PUPPET_VERSION'] || '~> 5.0'
+  gem "puppet", PUPPET_VERSION
   gem "puppet-lint"
   gem "rspec-puppet", :git => 'https://github.com/rodjek/rspec-puppet.git'
   gem "puppetlabs_spec_helper"
@@ -11,6 +13,7 @@ group :test do
   gem "metadata-json-lint"
   gem 'puppet-syntax'
   gem 'rspec-puppet-facts', :require => false
+  gem 'semantic_puppet' if PUPPET_VERSION < '4.9.0'
 end
 
 group :development do
