@@ -16,7 +16,6 @@ describe 'motd' do
     context "on #{os}" do
       let(:facts) do
         facts.merge({
-          :foo            => 'bar',
           :concat_basedir => '/dne',
           :is_pe          => 'no',
         })
