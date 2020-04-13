@@ -5,7 +5,7 @@
 #  puppetlabs-concat
 #
 # @param motd_file
-#   MOTD file
+#   Absolute path to MOTD file
 #
 # @param motd_local_enabled
 #   If true, Puppet will append the contents of /etc/motd.local.
@@ -23,9 +23,9 @@
 #  }
 #
 class motd (
-  String  $motd_file          = '/etc/motd',
-  Boolean $motd_local_enabled = true,
-  Boolean $add_puppet_warning = false,
+  Stdlib::Unixpath $motd_file          = '/etc/motd',
+  Boolean          $motd_local_enabled = true,
+  Boolean          $add_puppet_warning = false,
 ) {
 
   concat { $motd_file:

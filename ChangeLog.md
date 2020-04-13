@@ -1,4 +1,45 @@
 
+2.0.0 / 2020-04-13
+==================
+
+  * update docs
+  * update dependencies verions
+  * update class to use better data type
+  * update fixture to use latest forge module versions
+  * add pdk tuning
+  * remove Gemfile.lock for PDK compatibility
+  * update Jenkins test to match PDK
+  * convert to PDK and drop support for Puppet 3.x
+  * Merge pull request #16 from fvoges/2.x
+  * Merge branch 'master' into 2.x
+  * Merge pull request #19 from fvoges/update
+  * add parallel stages
+  * bump ruby to 2.5.1
+  * Merge branch 'master' into update
+  * Merge branch 'update' of github.com:fvoges/fvoges-motd into update
+  * ignore .DS_Store files
+  * [blacksmith] Bump version to 2.0.0
+  * update supported puppet/ruby versions
+  * convert to puppet 4 including puppet strings docs
+  * Merge pull request #15 from fvoges/fix_unit_tests
+  * fix broken unit tests for Puppet < 4.9.0
+  * Merge pull request #14 from fvoges/jenkinsfile
+  * Add Jenkinsfile
+  * [blacksmith] Bump version to 2.0.0
+  * update supported puppet/ruby versions
+  * convert to puppet 4 including puppet strings docs
+  * Merge pull request #13 from fvoges/maintenance
+  * (maint) Cleanup tests
+  * (maint) Update all gems
+  * (maint) Update puppet version to 4.10
+  * (maint) Cleanup Rakefile
+  * Merge pull request #12 from fvoges/fix_travis
+  * remove .z from version ruby version in travis config as recommended by Travis
+  * add warning about drop of puppet 3 support in 2.x
+  * change class and defined type to use Puppet 4 data types instead of stdlib for input validation
+  * remove Puppet 3.x support
+  * [blacksmith] Bump version to 1.0.4
+
 v1.0.3 / 2017-04-03
 ==================
 

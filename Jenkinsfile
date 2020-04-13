@@ -10,10 +10,10 @@ pipeline {
         STRICT_VARIABLES = "yes"
       }
       parallel {
-        stage('Ruby-2.5.1') {
+        stage('Ruby-2.5.7') {
           agent {
             docker {
-              image 'ruby:2.5.1'
+              image 'ruby:2.5.7'
               args '-v=/etc/passwd:/etc/passwd'
             }
           }
@@ -78,16 +78,16 @@ pipeline {
         }
       }
     }
-    stage('Puppet-5.3') {
+    stage('Puppet-6.13') {
       environment {
-        PUPPET_VERSION = "~> 5.3"
+        PUPPET_VERSION = "~> 6.13"
         STRICT_VARIABLES = "yes"
       }
       parallel {
-        stage('Ruby-2.5.1') {
+        stage('Ruby-2.5.7') {
           agent {
             docker {
-              image 'ruby:2.5.1'
+              image 'ruby:2.5.7'
               args '-v=/etc/passwd:/etc/passwd'
             }
           }
