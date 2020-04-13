@@ -1,8 +1,13 @@
 ---
-appveyor.yml:
-  delete: true
 .gitlab-ci.yml:
   delete: true
+appveyor.yml:
+  delete: true
+Gemfile:
+  required:
+    ':system_tests':
+    - gem: rake
+    - gem: puppetlabs_spec_helper
 spec/spec_helper.rb:
   mock_with: ':rspec'
   coverage_report: true
