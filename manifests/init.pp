@@ -5,7 +5,7 @@
 #  puppetlabs-concat
 #
 # @param motd_file
-#   MOTD file
+#   Absolute path to MOTD file
 #
 # @param motd_local_enabled
 #   If true, Puppet will append the contents of /etc/motd.local.
