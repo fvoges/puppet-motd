@@ -23,9 +23,9 @@
 #  }
 #
 class motd (
-  String  $motd_file          = '/etc/motd',
-  Boolean $motd_local_enabled = true,
-  Boolean $add_puppet_warning = false,
+  Stdlib::Unixpath $motd_file          = '/etc/motd',
+  Boolean          $motd_local_enabled = true,
+  Boolean          $add_puppet_warning = false,
 ) {
 
   concat { $motd_file:
