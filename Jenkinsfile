@@ -27,9 +27,9 @@ pipeline {
     }
     stage('Unit Tests') {
       parallel {
-        stage('Puppet 4.x') {
+        stage('Puppet 5.x') {
           environment {
-            PUPPET_GEM_VERSION = "~> 4.0"
+            PUPPET_GEM_VERSION = "~> 5.0"
           }
           agent {
             docker {
