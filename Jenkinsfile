@@ -27,13 +27,13 @@ pipeline {
     }
     stage('Unit Tests') {
       parallel {
-        stage('Puppet 5.x') {
+        stage('Puppet 6.x') {
           environment {
-            PUPPET_GEM_VERSION = "~> 5.0"
+            PUPPET_GEM_VERSION = "~> 6.0"
           }
           agent {
             docker {
-              image 'ruby:2.4.5'
+              image 'ruby:2.5.7'
               args '-v=/etc/passwd:/etc/passwd -v=/var/lib/jenkins:/var/lib/jenkins'
             }
           }
@@ -47,13 +47,13 @@ pipeline {
             sh 'bundle exec rake parallel_spec'
           }
         }
-        stage('Puppet 6.x') {
+        stage('Puppet 7.x') {
           environment {
-            PUPPET_GEM_VERSION = "~> 6.0"
+            PUPPET_GEM_VERSION = "~> 7.5"
           }
           agent {
             docker {
-              image 'ruby:2.5.7'
+              image 'ruby:2.7.2'
               args '-v=/etc/passwd:/etc/passwd -v=/var/lib/jenkins:/var/lib/jenkins'
             }
           }
