@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fvoges/puppet-motd.svg)](https://travis-ci.org/fvoges/puppet-motd)
 
-**WARNING:** Version 2.0 drops support for Puppet 3.x.
+**WARNING:** Current version only tested with Puppet 6.x and 7.x.
 
 ## Overview
 
