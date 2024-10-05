@@ -1,152 +1,87 @@
+<!-- markdownlint-disable MD024 -->
+# Changelog
 
-2.0.0 / 2020-04-13
-==================
+All notable changes to this project will be documented in this file.
 
-  * update docs
-  * update dependencies verions
-  * update class to use better data type
-  * update fixture to use latest forge module versions
-  * add pdk tuning
-  * remove Gemfile.lock for PDK compatibility
-  * update Jenkins test to match PDK
-  * convert to PDK and drop support for Puppet 3.x
-  * Merge pull request #16 from fvoges/2.x
-  * Merge branch 'master' into 2.x
-  * Merge pull request #19 from fvoges/update
-  * add parallel stages
-  * bump ruby to 2.5.1
-  * Merge branch 'master' into update
-  * Merge branch 'update' of github.com:fvoges/fvoges-motd into update
-  * ignore .DS_Store files
-  * [blacksmith] Bump version to 2.0.0
-  * update supported puppet/ruby versions
-  * convert to puppet 4 including puppet strings docs
-  * Merge pull request #15 from fvoges/fix_unit_tests
-  * fix broken unit tests for Puppet < 4.9.0
-  * Merge pull request #14 from fvoges/jenkinsfile
-  * Add Jenkinsfile
-  * [blacksmith] Bump version to 2.0.0
-  * update supported puppet/ruby versions
-  * convert to puppet 4 including puppet strings docs
-  * Merge pull request #13 from fvoges/maintenance
-  * (maint) Cleanup tests
-  * (maint) Update all gems
-  * (maint) Update puppet version to 4.10
-  * (maint) Cleanup Rakefile
-  * Merge pull request #12 from fvoges/fix_travis
-  * remove .z from version ruby version in travis config as recommended by Travis
-  * add warning about drop of puppet 3 support in 2.x
-  * change class and defined type to use Puppet 4 data types instead of stdlib for input validation
-  * remove Puppet 3.x support
-  * [blacksmith] Bump version to 1.0.4
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
-v1.0.3 / 2017-04-03
-==================
+## [v3.0.0](https://github.com/fvoges/puppet-motd/tree/v3.0.0) - 2024-10-05
 
-  * update spec tests to use rspec-puppet-facts
-  * add rspec-puppet-facts ruby gem
-  * update changelog
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/v2.0.0...v3.0.0)
 
-v1.0.2 / 2017-04-03
-===================
+### Other
 
-  * fix README formatting
-  * update ruby gems
-  * add 4.9.0 to test matrix
-  * bump default puppet to v4.9.x
+- rename changelog and update readme [#29](https://github.com/fvoges/puppet-motd/pull/29) ([fvoges](https://github.com/fvoges))
+- update metadata for new  release [#28](https://github.com/fvoges/puppet-motd/pull/28) ([fvoges](https://github.com/fvoges))
+- fix ci warnings and errors [#27](https://github.com/fvoges/puppet-motd/pull/27) ([fvoges](https://github.com/fvoges))
+- replace Travis with GHA [#26](https://github.com/fvoges/puppet-motd/pull/26) ([fvoges](https://github.com/fvoges))
+- update to pdk 3.3 [#25](https://github.com/fvoges/puppet-motd/pull/25) ([fvoges](https://github.com/fvoges))
+- pdk update to latest supported Puppet versions [#24](https://github.com/fvoges/puppet-motd/pull/24) ([fvoges](https://github.com/fvoges))
+- pdk update run [#23](https://github.com/fvoges/puppet-motd/pull/23) ([fvoges](https://github.com/fvoges))
+- fix and simplify Jenkinsfile [#22](https://github.com/fvoges/puppet-motd/pull/22) ([fvoges](https://github.com/fvoges))
+- PDK convert and drop Puppet 3.x [#21](https://github.com/fvoges/puppet-motd/pull/21) ([fvoges](https://github.com/fvoges))
 
-v1.0.1 / 2016-12-17
-===================
+## [v2.0.0](https://github.com/fvoges/puppet-motd/tree/v2.0.0) - 2020-04-13
 
-  * Merge pull request #10 from fvoges/remove_rubies
-  * Remove all Ruby versions from test matrix except 2.1
-  * Merge pull request #7 from fvoges/fix_travis_ci_badge
-  * Merge branch 'master' into fix_travis_ci_badge
-  * Update issue tracker URL
-  * Merge pull request #4 from fvoges/updates
-  * Merge pull request #9 from fvoges/update_contributing_rules
-  * Update Travis CI badge URL
-  * Update contributing rules
-  * Merge pull request #8 from fvoges/remove_ruby_193
-  * remove Ruby 1.9.3 fromtest matrix
-  * test
-  * Fix README
-  * Update Travis CI configuration
-  * Update metadata
-  * Change GitMagic rule to require ubjects to start with upper case
-  * Merge branch 'master' into updates
-  * Merge pull request #5 from gitmagic-bot/master
-  * add contributing.json file (https://gitmagic.io/rules)
-  * Update Changelog.md
-  * Update metadata
-  * Add coverage report to rspec tests
-  * Merge pull request #3 from fvoges/features/source_attribute
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/v1.0.3...v2.0.0)
 
-n.n.n / 2017-04-03
-==================
+### Other
 
-  * [blacksmith] Bump version to 1.0.3
+- PDK convert and drop Puppet 3.x [#21](https://github.com/fvoges/puppet-motd/pull/21) ([fvoges](https://github.com/fvoges))
+- Update readme [#20](https://github.com/fvoges/puppet-motd/pull/20) ([fvoges](https://github.com/fvoges))
+- Update [#19](https://github.com/fvoges/puppet-motd/pull/19) ([fvoges](https://github.com/fvoges))
+- 2.x [#16](https://github.com/fvoges/puppet-motd/pull/16) ([fvoges](https://github.com/fvoges))
+- fix broken unit tests for Puppet < 4.9.0 [#15](https://github.com/fvoges/puppet-motd/pull/15) ([fvoges](https://github.com/fvoges))
+- Add Jenkinsfile [#14](https://github.com/fvoges/puppet-motd/pull/14) ([fvoges](https://github.com/fvoges))
+- (maint) Maintenance [#13](https://github.com/fvoges/puppet-motd/pull/13) ([fvoges](https://github.com/fvoges))
+- (maint) Fix Travis CI failures [#12](https://github.com/fvoges/puppet-motd/pull/12) ([fvoges](https://github.com/fvoges))
+- Misc updates [#11](https://github.com/fvoges/puppet-motd/pull/11) ([fvoges](https://github.com/fvoges))
 
-v1.0.1 / 2016-04-07
-==================
+## [v1.0.3](https://github.com/fvoges/puppet-motd/tree/v1.0.3) - 2017-04-03
 
-  * Update metadata
-  * Add coverage report to rspec tests
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/v1.0.2...v1.0.3)
 
-v1.0.0 / 2016-03-06
-===================
+## [v1.0.2](https://github.com/fvoges/puppet-motd/tree/v1.0.2) - 2017-04-03
 
-  * Fix travis matrix configuration
-  * Rename tests -> examples following current recommendations
-  * Add gem caching
-  * Update ruby/puppet versions exclusions
-  * Tighter Puppet/PE compatibility strings
-  * Update gems
-  * Update travis CI config
-  * Update define type documentation
-  * Bump version and improve deps specification
-  * Add source attribute
-  * No need specify FUTURE_PARSER=yes for 4.x (D'oh!)
-  * Adding more puppet versions
-  * Testing new travis ci infra
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/v1.0.1...v1.0.2)
 
-0.3.0 / 2015-03-26
-==================
+### Other
 
-  * Removed tests for old ruby/puppet versions
-  * Disabling all the hiera spec helper stuff (not needed and causing issues with Travis-ci)
-  * Adding some extra facts to make the spec tests work with strict variables turned on
-  * Some gems were in the wrong place and causing travis-ci build failures
-  * typo
-  * First pass at adding spec tests
-  * concat::target no longer uses the ensure attribute to specify the fragment content
-  * motd::fragmet nows includes main class to ensure that it's in the catalog
-  * Added Travis-CI badge
+- Remove all Ruby versions from test matrix except 2.1 [#10](https://github.com/fvoges/puppet-motd/pull/10) ([fvoges](https://github.com/fvoges))
 
-0.2.2 / 2015-03-02
-==================
+## [v1.0.1](https://github.com/fvoges/puppet-motd/tree/v1.0.1) - 2016-12-17
 
-  * Version 0.2.2
-  * Fixed minor issues with formatting
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/v1.0.0...v1.0.1)
 
-0.2.1 / 2015-03-02
-==================
+### Other
 
-  * Version 0.2.1
-  * Some minor cosmetic changes to README.md
-  * Improved docs
-  * Added more documentation
+- Remove all Ruby versions from test matrix except 2.1 [#10](https://github.com/fvoges/puppet-motd/pull/10) ([fvoges](https://github.com/fvoges))
+- Update contributing rules [#9](https://github.com/fvoges/puppet-motd/pull/9) ([fvoges](https://github.com/fvoges))
+- Remove Ruby 1.9.3 from test matrix [#8](https://github.com/fvoges/puppet-motd/pull/8) ([fvoges](https://github.com/fvoges))
+- Update Travis CI badge URL [#7](https://github.com/fvoges/puppet-motd/pull/7) ([fvoges](https://github.com/fvoges))
+- Update changelog, add coverage report and GitMagic contributing rules [#4](https://github.com/fvoges/puppet-motd/pull/4) ([fvoges](https://github.com/fvoges))
+- Add source attribute to motd::fragment [#3](https://github.com/fvoges/puppet-motd/pull/3) ([fvoges](https://github.com/fvoges))
 
-0.2.0 / 2015-02-25
-==================
+## [v1.0.0](https://github.com/fvoges/puppet-motd/tree/v1.0.0) - 2016-03-06
 
-  * Moved to metadata.json
-  * Added pkg to .gitignore (we don't want the packaged module in the repo)
-  * Fixing puppet-lint warnings
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/v0.3.0...v1.0.0)
 
-0.1.0 / 2014-05-09
-==================
+## [v0.3.0](https://github.com/fvoges/puppet-motd/tree/v0.3.0) - 2015-03-27
 
-  * Fixed typo
-  * Added stdlib dependency
-  * Initial commit
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/0.2.2...v0.3.0)
+
+## [0.2.2](https://github.com/fvoges/puppet-motd/tree/0.2.2) - 2015-03-02
+
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/0.2.1...0.2.2)
+
+## [0.2.1](https://github.com/fvoges/puppet-motd/tree/0.2.1) - 2015-03-02
+
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/0.2.0...0.2.1)
+
+## [0.2.0](https://github.com/fvoges/puppet-motd/tree/0.2.0) - 2015-02-25
+
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/0.1.0...0.2.0)
+
+## [0.1.0](https://github.com/fvoges/puppet-motd/tree/0.1.0) - 2014-05-09
+
+[Full Changelog](https://github.com/fvoges/puppet-motd/compare/f19f0687cfaff6c84c84d73d03e38e8412efebde...0.1.0)
