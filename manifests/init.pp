@@ -27,7 +27,6 @@ class motd (
   Boolean          $motd_local_enabled = true,
   Boolean          $add_puppet_warning = false,
 ) {
-
   concat { $motd_file:
     owner => 'root',
     group => '0',
@@ -50,4 +49,3 @@ class motd (
     }
   }
 }
-
