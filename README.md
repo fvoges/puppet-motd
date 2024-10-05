@@ -1,8 +1,8 @@
 # Puppet MOTD module
 
-[![Build Status](https://travis-ci.org/fvoges/puppet-motd.svg)](https://travis-ci.org/fvoges/puppet-motd)
+![ci workflow](https://github.com/fvoges/puppet-motd/actions/workflows/ci.yaml/badge.svg) ![bightly workflow](https://github.com/fvoges/puppet-motd/actions/workflows/nightly.yaml/badge.svg)
 
-**WARNING:** Current version only tested with Puppet 6.x and 7.x.
+**WARNING:** Current version only tested with Puppet 7.x and 8.x.
 
 ## Overview
 
