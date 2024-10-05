@@ -41,7 +41,7 @@ describe 'motd::fragment' do
         let(:params) do
           {
             content: 'test',
-            #:order => 10,
+            # :order => 10,
           }
         end
 

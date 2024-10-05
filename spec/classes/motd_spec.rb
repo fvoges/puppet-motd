@@ -23,9 +23,9 @@ describe 'motd' do
       # while all required parameters will require you to add a value
       let(:params) do
         {
-          #:motd_file => "/etc/motd",
-          #:motd_local_enabled => true,
-          #:add_puppet_warning => false,
+          # :motd_file => "/etc/motd",
+          # :motd_local_enabled => true,
+          # :add_puppet_warning => false,
         }
       end
 
